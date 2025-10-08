@@ -45,7 +45,7 @@ while True:
     if cv2.waitKey(20) & 0xFF == 27:  # ESC để thoát
         break
 
-print("Đóng video nhưng thôi mở lại đi không muốn")
+print("Đóng video nhưng thôi mở lại đi không muốn xin chào xin chào ")
 
 cap.release()
 cv2.destroyAllWindows()
