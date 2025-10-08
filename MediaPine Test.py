@@ -46,6 +46,7 @@ while True:
         break
 
 print("Đóng video nhưng thôi mở lại đi không muốn xin chào xin chào hahaha ")
+print("Test brand")
 
 cap.release()
 cv2.destroyAllWindows()
