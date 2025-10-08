@@ -35,7 +35,7 @@ while True:
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
             mp_drawing.draw_landmarks(
-                frame,
+                frame,ncxvxbv
                 hand_landmarks,
                 mp_hands.HAND_CONNECTIONS
             )
@@ -44,6 +44,8 @@ while True:
 
     if cv2.waitKey(20) & 0xFF == 27:  # ESC để thoát
         break
+
+print("Đóng video")
 
 cap.release()
 cv2.destroyAllWindows()
